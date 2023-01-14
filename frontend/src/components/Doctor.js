@@ -1,20 +1,20 @@
 import React from 'react'
 import {Card} from 'react-bootstrap'
-
+import {Link} from 'react-router-dom'
 
 function Doctor({doctor}) { 
     return (
         <Card className = "my-3 p-3 rounded">
-            <a href={'/doctor/${doctor._id}'}>
+            <Link to={`/doctor/${doctor._id}`}>
                 <Card.Img src={doctor.image}/>
-            </a>
+            </Link>
 
             <Card.Body>
-                <a href={'doctor/${doctor._id}'}>
+                <Link to={`doctor/${doctor._id}`}>
                     <Card.Title as = "div">
                         <strong>{doctor.name}</strong>
                     </Card.Title>
-                </a>
+                </Link>
             </Card.Body>
         </Card>
     )
