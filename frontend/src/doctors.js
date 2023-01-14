@@ -5,7 +5,8 @@ const doctors = [
       'description': 'Złamania, urazy, dolegliwości układu ruchu',
       'price': 100-300,
       'count': 3,
-      'image': '/img/ortopeda.jpg'
+      'image': '/img/ortopeda.jpg',
+      'contact': 604-353-234
 
     },
     {
@@ -14,7 +15,8 @@ const doctors = [
       'description': 'Diagnostyka i leczenie chorób układu krwionośnego',
       'price': 100-350,
       'count': 3,
-      'image': '/img/kardiolog.jpg'
+      'image': '/img/kardiolog.jpg',
+      'contact': 304-353-234
     },
     {
       '_id': '3',
@@ -22,7 +24,8 @@ const doctors = [
       'description': 'Badanie czynności układu nerwowego oraz reakcji organizmu na bodźce',
       'price': 200-300,
       'count': 3,
-      'image': '/img/neurolog.jpg'
+      'image': '/img/neurolog.jpg',
+      'contact': 632-353-234
     },
     {
       '_id': '4',
@@ -30,7 +33,8 @@ const doctors = [
       'description': 'Profilaktyka, diagnoza oraz leczenie schorzeń nowotworowych',
       'price': 140-500,
       'count': 3,
-      'image': '/img/onkolog.jpg'
+      'image': '/img/onkolog.jpg',
+      'contact': 423-134-234
     },
     {
       '_id': '5',
@@ -38,7 +42,8 @@ const doctors = [
       'description': 'Diagnostyka i leczenie schorzeń tkanek miękkich tj. tkanki podskórnej i skóry, narządów wewnętrznych układu trawiennego, brzucha, pęcherza moczowego, klatki piersiowej, szyi oraz mięśni',
       'price': 150-600,
       'count': 3,
-      'image': '/img/chirurg.jpg'
+      'image': '/img/chirurg.jpg',
+      'contact': 534-353-455
     },
     {
       '_id': '6',
@@ -46,7 +51,8 @@ const doctors = [
       'description': 'Diagnostyka oraz leczenie chorób i zaburzeń psychicznych',
       'price': 80-200,
       'count': 3,
-      'image': '/img/psychiatra.jpg'
+      'image': '/img/psychiatra.jpg',
+      'contact': 534-353-234
     },
     {
       '_id': '7',
@@ -54,7 +60,8 @@ const doctors = [
       'description': 'Diagnostyka i leczenie chorób, przeprowadzanie bilansów zdrowia i kwalifikacji do szczepień',
       'price': 60-200,
       'count': 3,
-      'image': '/img/ogolny.jpg'
+      'image': '/img/ogolny.jpg',
+      'contact': 564-344-234
     },
     {
       '_id': '8',
@@ -62,7 +69,8 @@ const doctors = [
       'description': 'Diagnostyka i leczenie chorób alergicznych',
       'price': 90-350,
       'count': 3,
-      'image': '/img/alergolog.jpg'
+      'image': '/img/alergolog.jpg',
+      'contact': 566-353-234
     },
   ]
   
