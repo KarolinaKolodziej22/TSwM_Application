@@ -7,7 +7,7 @@ function Header() {
     <header>
           <Navbar bg="light" expand="lg" collapseOnSelect>
             <Container>
-              <LinkContainer to = "/home">
+            <LinkContainer to = "/home">
                 <Navbar.Brand>ZnajdzLekarza</Navbar.Brand>
               </LinkContainer>
               
