@@ -7,7 +7,7 @@ const doctors = [
       'count': 3,
       'image': '/img/ortopeda.jpg',
       'contact': 604-353-234,
-      'symptoms': ['złamanie, uraz']
+      'symptoms': ['złamanie', 'uraz']
 
     },
     {
@@ -18,7 +18,7 @@ const doctors = [
       'count': 3,
       'image': '/img/kardiolog.jpg',
       'contact': 304-353-234,
-      'symptoms': ['ból w klatce piersiowej, omdlenia']
+      'symptoms': ['ból w klatce piersiowej', 'omdlenia']
     },
     {
       '_id': '3',
@@ -28,7 +28,7 @@ const doctors = [
       'count': 3,
       'image': '/img/neurolog.jpg',
       'contact': 632-353-234,
-      'symptoms': ['nerwica, Alzheimer, ból w klatce piersiowej']
+      'symptoms': ['nerwica', 'Alzheimer', 'ból w klatce piersiowej']
     },
     {
       '_id': '4',
