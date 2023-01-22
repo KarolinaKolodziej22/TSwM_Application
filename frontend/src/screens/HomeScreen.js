@@ -3,9 +3,17 @@ import {Row, Col} from 'react-bootstrap'
 import Doctor from '../components/Doctor'
 import doctors from '../doctors'
 import FilterMenu from '../components/FilterMenu'
+import Cookies from 'universal-cookie';
+
+const cookies = new Cookies();
+const complaint = cookies.get('complaint');
 
 function HomeScreen(){
-    const [selectedOption, setSelectedOption] = useState("all")
+    let selectedOption = "all"
+    if (complaint) {
+        selectedOption = complaint;
+    }
+
     const filteredDoctors = doctors.filter(doctor => {
         if (selectedOption === 'zmiany na skórze' || selectedOption === 'wysypka') {
            // return doctor.name === 'Alergolog'
@@ -42,22 +50,21 @@ function HomeScreen(){
            return doctor.symptoms.join(',').includes(selectedOption)
 
         }
-     
-
-        
-        return selectedOption === 'all';
+        else{
+            return doctors;
+        }
     });
     
     return (
         <div>
             <h1>Doktorzy</h1>
-            <FilterMenu selectedOption={selectedOption} setSelectedOption={setSelectedOption}/>
+            <FilterMenu/>
             <Row>
             {filteredDoctors.map(doctor => (
-                    <Col key={doctor._id} sm={12} md={6} lg={4} xl={3}>
-                        <Doctor doctor={doctor} />
-                    </Col>
-                ))}
+                <Col key={doctor._id} sm={12} md={6} lg={4} xl={3}>
+                    <Doctor doctor={doctor} />
+                </Col>
+            ))}
             </Row>
         </div>
     )

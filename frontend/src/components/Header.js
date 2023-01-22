@@ -8,7 +8,15 @@ function Header() {
           <Navbar bg="light" expand="lg" collapseOnSelect>
             <Container>
             <LinkContainer to = "/">
-                <Navbar.Brand>ZnajdzLekarza</Navbar.Brand>
+                <Navbar.Brand>ZnajdzLekarza
+                <img
+                src="/img/ikonka_glowna.png"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="ZnajdzLekarza Logo"
+                />
+                </Navbar.Brand>
               </LinkContainer>
               
 

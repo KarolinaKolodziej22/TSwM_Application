@@ -10,7 +10,7 @@ function App() {
   return (
     <Router> 
       <Header/>
-      <main className="py-3">
+      <main className="container">
         
           <Routes>
           <Route path='/' element={<HomeScreen/>} exact/>
