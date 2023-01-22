@@ -6,7 +6,8 @@ const doctors = [
       'price': 100-300,
       'count': 3,
       'image': '/img/ortopeda.jpg',
-      'contact': 604-353-234
+      'contact': 604-353-234,
+      'symptoms': ['złamanie, uraz']
 
     },
     {
@@ -16,7 +17,8 @@ const doctors = [
       'price': 100-350,
       'count': 3,
       'image': '/img/kardiolog.jpg',
-      'contact': 304-353-234
+      'contact': 304-353-234,
+      'symptoms': ['ból w klatce piersiowej, omdlenia']
     },
     {
       '_id': '3',
@@ -25,7 +27,8 @@ const doctors = [
       'price': 200-300,
       'count': 3,
       'image': '/img/neurolog.jpg',
-      'contact': 632-353-234
+      'contact': 632-353-234,
+      'symptoms': ['nerwica, Alzheimer, ból w klatce piersiowej']
     },
     {
       '_id': '4',
@@ -34,7 +37,8 @@ const doctors = [
       'price': 140-500,
       'count': 3,
       'image': '/img/onkolog.jpg',
-      'contact': 423-134-234
+      'contact': 423-134-234,
+      'symptoms': ['guz', 'zmiany na skórze']
     },
     {
       '_id': '5',
@@ -43,7 +47,8 @@ const doctors = [
       'price': 150-600,
       'count': 3,
       'image': '/img/chirurg.jpg',
-      'contact': 534-353-455
+      'contact': 534-353-455,
+      'symptoms': ['guz', 'zmiany na skórze', 'ból brzucha']
     },
     {
       '_id': '6',
@@ -52,7 +57,8 @@ const doctors = [
       'price': 80-200,
       'count': 3,
       'image': '/img/psychiatra.jpg',
-      'contact': 534-353-234
+      'contact': 534-353-234,
+      'symptoms': ['nerwica', 'stany depresyjne', 'ból brzucha']
     },
     {
       '_id': '7',
@@ -61,7 +67,8 @@ const doctors = [
       'price': 60-200,
       'count': 3,
       'image': '/img/ogolny.jpg',
-      'contact': 564-344-234
+      'contact': 564-344-234,
+      'symptoms': ['ból brzucha', 'gorączka', 'ból w klatce piersiowej', 'omdlenia', 'kaszel']
     },
     {
       '_id': '8',
@@ -70,7 +77,8 @@ const doctors = [
       'price': 90-350,
       'count': 3,
       'image': '/img/alergolog.jpg',
-      'contact': 566-353-234
+      'contact': 566-353-234,
+      'symptoms': ['zmiany na skórze', 'wysypka']
     },
   ]
   

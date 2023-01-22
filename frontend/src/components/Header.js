@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Nav, Container} from 'react-bootstrap'
+import {Navbar, Container} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 
 function Header() {
@@ -7,20 +7,14 @@ function Header() {
     <header>
           <Navbar bg="light" expand="lg" collapseOnSelect>
             <Container>
-            <LinkContainer to = "/home">
+            <LinkContainer to = "/">
                 <Navbar.Brand>ZnajdzLekarza</Navbar.Brand>
               </LinkContainer>
               
 
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-
-                  <LinkContainer to = "/login">
-                     <Nav.Link href="/login"><i className="fas fa-user"></i>Login</Nav.Link>
-                  </LinkContainer>
-                 
-                </Nav>
+                
               </Navbar.Collapse>
             </Container>
           </Navbar>

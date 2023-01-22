@@ -1,6 +1,6 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
-import Doctor from '../components/Doctor'
+//import Doctor from '../components/Doctor'
 import doctors from '../doctors'
 import {Link} from 'react-router-dom'
 import { Row,Col,Image, ListGroup } from 'react-bootstrap'
@@ -8,10 +8,10 @@ import { Row,Col,Image, ListGroup } from 'react-bootstrap'
 
 function DoctorScreen({match}) {
     const {id} = useParams()
-    const doctor = doctors.find(doctor=>doctor._id == id)
+    const doctor = doctors.find(doctor=>doctor._id === id)
     return(
         <div>
-            <Link to ="/home" className='btn btn-light my'>Wróć</Link>
+            <Link to ="/" className='btn btn-light my'>Wróć</Link>
             <Row>
                 <Col md={6}>
                     <Image src={doctor.image} alt={doctor.name} fluid />
